@@ -48,9 +48,6 @@ public class HomePagerAdapter extends FragmentPagerAdapter {
           fragments[position] = HomeRegionFragment.newInstance();
           break;
         case 4:
-          fragments[position] = HomeAttentionFragment.newInstance();
-          break;
-        case 5:
           fragments[position] = HomeDiscoverFragment.newInstance();
           break;
         default:

@@ -28,11 +28,6 @@
         <activity
             android:name="com.hotbitmapgg.bilibili.module.common.SplashActivity"
             android:theme="@style/ColorTranslucentTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
 
@@ -42,7 +37,13 @@
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/MainActivityColorTranslucentTheme"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
 
         <!-- 登录界面 -->

@@ -6,17 +6,16 @@
         <item>@string/section_recommend</item>
         <item>@string/section_bangumi</item>
         <item>@string/section_more</item>
-        <item>@string/section_focus</item>
         <item>@string/section_discover</item>
     </string-array>
 
     <string name="app_name">哔哩哔哩</string>
     <string name="info_play_times_format">%d</string>
     <string name="info_reviews_format">%d</string>
-    <string name="hotbitmapgg">hotBitmapGG</string>
-    <string name="github_link">https://github.com/HotBitmapGG</string>
-    <string name="sina_weibo_link">新浪微博:http://m.weibo.cn/users/3223089177/qq</string>
-    <string name="jianshu_link">简书:http://www.jianshu.com/notebooks/5181955/latest</string>
+    <string name="hotbitmapgg">Hello</string>
+    <string name="github_link">https://github.com/Hello</string>
+    <string name="sina_weibo_link">新浪微博:http://m.weibo.cn/users/</string>
+    <string name="jianshu_link">简书:http://www.jianshu.com/notebooks/</string>
     <string name="add_follow">+关注</string>
     <string name="login_hint_account">请输入您的哔哩哔哩账号</string>
     <string name="login_hint_password">请输入您的密码</string>
